@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Epiviz Workspaces</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Epiviz is an interactive visualization tool for functional genomics data. It supports genome navigation like other genome browsers, but allows multiple visualizations of data within genomic regions using scatterplots, heatmaps and other user-supplied visualizations.">
+    <meta name="author" content="Epiviz">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="epiviz-favicon.png">
+    <script src="js/main.js"></script>
+  </head>
+  <body class="bg-body text-body font-body">
+    <div class="container mx-auto px-4"> 
+    
+      <nav class="flex flex-wrap items-center justify-center p-4 border-b">
+        <div class="lg:order-1 w-auto lg:w-1/5 lg:text-center">
+          <a class="text-xl text-indigo-500 font-semibold" href="#">
+            <img src="images/epiviz.png" height="75" width="100">
+          </a>
+        </div>
+        <div class="block lg:hidden">
+          <button class="navbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="navbar-menu hidden lg:order-2 lg:block w-full lg:w-2/5">
+          <!-- <a class="text-xl text-indigo-500 font-semibold" href="#">Workspaces</a> -->
+        </div>
+        <div class="navbar-menu hidden lg:order-3 lg:block w-full lg:w-2/5 lg:text-right">
+          <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700" href="https://epiviz.org">Website</a>
+          <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700" href="https://epiviz.github.io/components/">Docs</a>
+          <a class="block lg:inline-block mt-4 lg:mt-0 text-blue-900 hover:text-blue-700" href="https://github.com/epiviz/epiviz-chart">GitHub</a>
+        </div>
+      </nav>
+      
+      <!-- max-w-2xl -->
+      <section class="py-12 p-4 text-center">
+        <div class="flex flex-wrap -mx-4">
+          <!-- <div class="w-full lg:w-1/3 mx-auto">
+            <img class="mx-auto mb-4 full" height="150" src="images/hero2.gif">
+          </div> -->
+          <div class="w-full max-w-2xl mx-auto">
+            <h4 class="text-5xl mt-2 mb-6 leading-tight font-heading">Epiviz </h4>
+            <span class="text-md font-semibold">Epiviz is an interactive visualization tool for functional genomics data. It supports genome navigation like other genome browsers, but allows multiple visualizations of data within genomic regions using scatterplots, heatmaps and other user-supplied visualizations.</span>
+          </div>
+        </div>
+      </section>
+    
+      <section class="py-8 px-4">
+        <h2 class="text-4xl mb-2 leading-tight font-heading">Available Workspaces</h2>
+        <div id="workspaceCards" class="flex flex-wrap -mx-4">
+        </div>
+      </section>
+    
+      <footer class="flex flex-wrap items-center justify-between p-4">
+        <div class="w-full lg:w-auto lg:mr-6 mb-4 lg:mb-0 text-center">&copy; Epiviz</div>
+        <div class="flex flex-col lg:flex-row items-center w-full lg:w-auto">
+          <div class="mx-auto lg:mx-0 lg:ml-auto">
+            <a class="inline-block mt-0 text-blue-900 hover:text-blue-700" href="http://epiviz.org">Website</a>
+            <a class="inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700" href="https://epiviz.github.io/components/">Docs</a>
+            <a class="inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700" href="https://github.com/epiviz/epiviz-chart">Github</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
