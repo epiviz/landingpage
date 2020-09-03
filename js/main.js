@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                         <div class="flex flex-col px-4">
                             <p class="border-b mt-4 text-gray-500 leading-relaxed">` +
-                                ws.description +
+                                (ws.description.length > 75 ? ws.description.slice(0, 75) + "..." : ws.description) +
                             `</p>
                             <span class="text-black-500 text-xs mx-auto py-2 px-4 rounded">
                                 Genome : ` +
